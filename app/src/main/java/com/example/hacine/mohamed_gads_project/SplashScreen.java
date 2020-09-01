@@ -9,7 +9,7 @@ import android.view.View;
 import gr.net.maroulis.library.EasySplashScreen;
 
 public class SplashScreen extends AppCompatActivity {
-
+// i used external library to make splash screen
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

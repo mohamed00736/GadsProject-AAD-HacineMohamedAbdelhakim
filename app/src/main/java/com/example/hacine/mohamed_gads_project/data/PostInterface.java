@@ -15,7 +15,5 @@ public interface PostInterface {
 
     @GET("api/hours")
     public Call<List<TopLearnerModel>>   getTopLearners();
-//
-//    @POST("posts")
-//    public Call <PostModel>   creatPosts(@Body Post post);
+
 }

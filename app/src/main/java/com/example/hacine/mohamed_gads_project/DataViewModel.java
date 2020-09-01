@@ -12,7 +12,7 @@ import java.util.List;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-
+// This is the View Model here
 public class DataViewModel extends ViewModel {
 
     public  MutableLiveData<List<SkillIqModel>> skillmutabledata = new MutableLiveData<>();

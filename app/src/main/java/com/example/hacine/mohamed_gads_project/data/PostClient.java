@@ -14,7 +14,6 @@ public class PostClient {
     private static final String BASE_URL = "https://gadsapi.herokuapp.com/";
     private PostInterface postInterface;
     private static PostClient INSTANCE;
-
     public PostClient( ) {
 
         Retrofit retrofit = new Retrofit.Builder()
@@ -23,6 +22,10 @@ public class PostClient {
                 .build();
         postInterface = retrofit.create(PostInterface.class);
     }
+
+
+    // Singelton
+
     public static PostClient getINSTANCE() {
         if (null == INSTANCE){
             INSTANCE = new PostClient();
