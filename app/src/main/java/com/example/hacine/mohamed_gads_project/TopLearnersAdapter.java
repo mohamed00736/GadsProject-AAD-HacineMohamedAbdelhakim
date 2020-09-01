@@ -33,7 +33,7 @@ public class TopLearnersAdapter extends RecyclerView.Adapter<TopLearnersAdapter.
         holder.tvlearnname.setText(toplearnerlist.get(position).getName());
         holder.tvskillhours.setText(String.valueOf(toplearnerlist.get(position).getHours())+" Learning hours");
         holder.tvlearncountry.setText(toplearnerlist.get(position).getCountry());
-        Picasso.get().load(toplearnerlist.get(position).getBadgeUrl()).fit().centerCrop().into(holder.img2);
+        Picasso.get().load(toplearnerlist.get(position).getBadgeUrl()).into(holder.img2);
     }
 
     @Override
