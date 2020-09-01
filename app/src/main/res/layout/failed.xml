@@ -32,13 +32,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
-    <Button
-        android:id="@+id/failedclose"
-        android:textColor="#D11010"
-        android:background="@drawable/crnr"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Dismiss" />
+<!--    <Button-->
+<!--        android:id="@+id/failedclose"-->
+<!--        android:textColor="#D11010"-->
+<!--        android:background="@drawable/crnr"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:text="Dismiss" />-->
 
 </LinearLayout>

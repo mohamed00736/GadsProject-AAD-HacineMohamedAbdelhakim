@@ -143,7 +143,7 @@ openDialog();
 
         dialog.setContentView(R.layout.sucess);
 
-        Button btndialogyes = dialog.findViewById(R.id.suucesclose);
+//        Button btndialogyes = dialog.findViewById(R.id.suucesclose);
         Button btndialogclose = dialog.findViewById(R.id.imgsuc);
         btndialogclose.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -151,12 +151,12 @@ openDialog();
                 dialog.dismiss();
             }
         });
-        btndialogyes.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                dialog.dismiss();
-            }
-        });
+//        btndialogyes.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                dialog.dismiss();
+//            }
+//        });
 
         dialog.show();
 
@@ -168,7 +168,7 @@ openDialog();
 
         dialog.setContentView(R.layout.failed);
 
-        Button btndialogyes = dialog.findViewById(R.id.failedclose);
+//        Button btndialogyes = dialog.findViewById(R.id.failedclose);
         Button btndialogclose = dialog.findViewById(R.id.imgfai);
         btndialogclose.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -177,12 +177,12 @@ openDialog();
             }
         });
 
-        btndialogyes.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                dialog.dismiss();
-            }
-        });
+//        btndialogyes.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                dialog.dismiss();
+//            }
+//        });
         dialog.show();
     }
 }

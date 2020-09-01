@@ -37,13 +37,13 @@
     </TextView>
 
 
-    <Button
-        android:background="@drawable/crnr4"
-        android:id="@+id/suucesclose"
-        android:textColor="@color/white"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Dismiss" />
+<!--    <Button-->
+<!--        android:background="@drawable/crnr4"-->
+<!--        android:id="@+id/suucesclose"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:text="Dismiss" />-->
 
 </LinearLayout>
