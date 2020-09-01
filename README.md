@@ -1,4 +1,5 @@
 # GadsProject-AAD-HacineMohamedAbdelhakim
 THIS PROJECT IS PART OF THE GOOGLE AND ANDELA DEVELOPER SCHOLARAHIO FOR ANDROID DEVELOPERS
+I used MVVM Archtecture -- Rerofit -- Volley 
 
 
