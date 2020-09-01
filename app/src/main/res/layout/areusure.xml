@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:elevation="10dp"
+    android:background="@drawable/crnr"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/imgclose"
+        android:layout_gravity="right"
+        android:layout_margin="7dp"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/ic_baseline_highlight_off_24" />
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:textColor="#64DD17"
+        android:textSize="24sp"
+        android:layout_margin="40dp"
+        android:fontFamily="sans-serif"
+        android:text=" Are You Sure ?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <Button
+        android:background="@drawable/crnr3"
+        android:id="@+id/btnyes"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Yes" />
+
+</LinearLayout>
