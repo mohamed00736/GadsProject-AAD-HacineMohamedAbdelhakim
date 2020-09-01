@@ -21,7 +21,7 @@
 
 
             <androidx.appcompat.widget.Toolbar
-                android:background="@drawable/gads"
+                android:background="@drawable/gads_header"
 
                 android:id="@+id/subtoolbar"
                 android:layout_height="?attr/actionBarSize"
