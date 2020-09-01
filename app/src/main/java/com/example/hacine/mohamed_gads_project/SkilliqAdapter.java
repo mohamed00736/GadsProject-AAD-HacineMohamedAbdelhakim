@@ -35,7 +35,7 @@ public class SkilliqAdapter extends RecyclerView.Adapter<SkilliqAdapter.PostView
         holder.tvskillname.setText(skilllist.get(position).getName());
         holder.tvskillscore.setText(String.valueOf(skilllist.get(position).getScore())+" Skill IQ Score");
         holder.tvskillcountry.setText(skilllist.get(position).getCountry());
-        Picasso.get().load(skilllist.get(position).getBadgeUrl()).fit().centerCrop().into(holder.img);
+        Picasso.get().load(skilllist.get(position).getBadgeUrl()).into(holder.img);
         //Log.d(TAG, "Imageurl is : "+skilllist.get(position).getBadgeUrl());
     }
 
